@@ -1,4 +1,4 @@
-const dictionary = ['earth', 'plane', 'crane', 'audio', 'house'];
+const dictionary = ['earth', 'plane', 'crane', 'audio', 'house', 'drive'];
 const state = {
     secret: dictionary[Math.floor(Math.random()*dictionary.length)],
     grid: Array(6)
